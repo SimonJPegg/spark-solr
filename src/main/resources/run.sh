@@ -2,7 +2,7 @@
 
 `which spark-submit` --master yarn-client \
 --files jaas_solr.conf,user.keytab \
---class enstar.sparksolr.SolrLoaderJob \
+--class org.antipathy.sparksolr.SolrLoaderJob \
 spark-solr-0.1-SNAPSHOT-jar-with-dependencies.jar \
 --inputPath /some/hdfs/location/ \
 --solrURI  zookeeperhost:2181/solr \
