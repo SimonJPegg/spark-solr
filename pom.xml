@@ -23,7 +23,7 @@
     </repositories>
 
     <properties>
-        <version.solr>4.10.3-cdh5.8.3</version.solr>
+        <version.solr>8.2.0</version.solr>
         <version.spark>1.6.0-cdh5.8.3</version.spark>
         <version.scala>2.10.3</version.scala>
         <version.scala.binary>2.10</version.scala.binary>
